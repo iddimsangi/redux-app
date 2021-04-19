@@ -1,6 +1,6 @@
 
 import './App.css';
-import HeadCompo from './components/head/head';
+import HeadCompo from './containers/head/head';
 function App() {
   return (
     <div className="App">

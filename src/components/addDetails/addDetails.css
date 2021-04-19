@@ -1,0 +1,16 @@
+.inp-det{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    text-align: center;
+}
+.inpt{
+    padding: 10px 20px;
+}
+button{
+    padding: 10px 20px;
+    text-transform: uppercase;
+    background-color:orange;
+    color: #fff;
+    margin-bottom: 45px;
+}
