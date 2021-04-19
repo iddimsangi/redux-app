@@ -1,6 +1,20 @@
 .head-content{
-    background-image: url('../../assets/bg-desktop-light.jpg');
+    background-image: url('../../assets/bg-desktop-dark.jpg');
     background-position: center;
     background-size: cover;
     height: 40vh;
+    position: relative;
+}
+.head-text{
+    position: absolute;
+    display: inline-block;
+    left:31%;
+    top: 20%;
+    width:65%;
+}
+h1{
+    display: inline-block;
+    text-transform: uppercase;
+    float: left;
+    letter-spacing: 10px;
 }
