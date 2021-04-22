@@ -68,7 +68,23 @@ function personDetails(props) {
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"><path fill="#fff" fill-rule="evenodd" d="M16.97 0l.708.707L9.546 8.84l8.132 8.132-.707.707-8.132-8.132-8.132 8.132L0 16.97l8.132-8.132L0 .707.707 0 8.84 8.132 16.971 0z"/></svg>
             </span>
            </div>
-
+       </div>
+       <div className="box">
+           <div>
+           <span>
+           5 times left
+           </span>    
+           </div>
+           <div className="middle_last">
+               <a href="#">All</a>
+               <a href="#">Active</a>
+               <a href="#">Completed</a>
+           </div>
+           <div> 
+               <span>
+               <a href="#">Clear completed</a> 
+               </span>          
+           </div>
        </div>
         </div>
     )
