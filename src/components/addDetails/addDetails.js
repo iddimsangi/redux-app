@@ -12,14 +12,22 @@ export default class addDetails extends Component {
     }
     render() {
         return (
-            <div className="inp-det">
+          
+              <div className="inp-det">
+                <button id="sw-icon" type onclick="themechange()">
+			    </button>
                 <input className="inpt"
                 type="text" 
-                placeholder={this.state.prs_name} 
+                placeholder="Create a new todo"
                 onChange={this.onChangeHandler}
-                />
-                <button onClick={() => this.props.onAddDetails(this.state.prs_name)}>add</button>        
+                value={this.state.prs_name}
+                /> 
+                <div className="clfx"></div>   
+                <PersonDetails/>      
+           
             </div>
+        
+           
         )
     }
 }
