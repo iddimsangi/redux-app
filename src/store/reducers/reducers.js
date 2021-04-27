@@ -1,5 +1,5 @@
 const initialState = {
-    todos:[]
+  todos:''
   }
   
   // Use the initialState as a default value

@@ -12,6 +12,15 @@
     top: 20%;
     width:65%;
 }
+.box-detail{
+    position: absolute;
+    top: 75%;
+    left: 31%;
+    width: 38%;
+}
+.compSty{
+    width: 38%;
+}
 .clfx::after{
     content: '';
     display: table;
